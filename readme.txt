@@ -1,1 +1,1 @@
-Javascript çalışmaları..
+Javascript çalışmaları için oluşturuldu.
