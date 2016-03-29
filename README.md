@@ -1,18 +1,23 @@
 # Javascript çalışmaları için oluşturuldu.
+---
+
+## Javascript Hello World
+'''
+var adim = "Hello Mahir";
+alert(adim);
+'''
 
 * bu bir 
 * bu iki
 
-
 `ls -l` komutu listeletiliyor
 
-## alt başlık
-
-```html
+```
+html
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Html kodları</title>
 </head>
 <body>
 
