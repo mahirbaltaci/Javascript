@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SelectBox To do list</title>
+  <meta charset="UTF-8">
+
+</head>
+<body>
+
+
+<button onclick="kutuekle()">Kutu ekle</button>
+<button onclick="hepsiniSec()">Hepsini Seç</button>
+<button onclick="hepsiniSecme()">Hepsini Seçme</button>
+<button onclick="kutusil()">İşi sil</button>
+
+  <script type="text/javascript">
+
+    function kutuekle() {
+      var x = document.createElement("INPUT");
+      x.setAttribute("type", "checkbox");
+      x.setAttribute("name", "boxum");      
+      document.body.appendChild(x);
+    };
+
+    function kutusil() {
+
+      var rmvCheckBoxes = document.getElementsByName('boxum');
+
+        if(rmvCheckBoxes.checked)
+        {
+          removeElm(rmvCheckBoxes);    
+        }
+
+      function removeElm(elm){
+         elm.parentElement.removeChild(elm);
+      }
+
+    }
+
+
+    function hepsiniSec(){
+      document.getElementsByName("boxum").checked = true;
+    }
+
+    function hepsiniSecme(){
+      document.getElementsByName("boxum").checked = false;
+    }
+
+  </script>
+
+
+
+
+</body>
+</html>
