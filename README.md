@@ -9,6 +9,7 @@ alert(adim);
 
 * bu bir 
 * bu iki
+* bu da üç
 
 `ls -l` komutu listeletiliyor
 
